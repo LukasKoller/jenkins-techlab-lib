@@ -1,5 +1,3 @@
 def call(String channel) {
-    node {
-        sh 'bundle install'
-    }
+    sh 'bundle install'
 }
