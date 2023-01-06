@@ -1,5 +1,5 @@
 def call(String channel) {
-    steps {
+    node {
         sh 'bundle install'
     }
 }
